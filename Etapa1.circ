@@ -56,25 +56,24 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="0" loc="(110,80)" name="Pin">
+    <comp lib="0" loc="(130,100)" name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="facing" val="south"/>
     </comp>
-    <comp lib="0" loc="(140,80)" name="Pin">
+    <comp lib="0" loc="(130,130)" name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="facing" val="south"/>
     </comp>
-    <comp lib="0" loc="(170,80)" name="Pin">
+    <comp lib="0" loc="(130,160)" name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(130,190)" name="Pin">
+      <a name="appearance" val="classic"/>
+    </comp>
+    <comp lib="0" loc="(130,220)" name="Pin">
+      <a name="appearance" val="classic"/>
     </comp>
     <comp lib="0" loc="(450,190)" name="Clock"/>
     <comp lib="0" loc="(490,160)" name="Constant"/>
     <comp lib="0" loc="(490,180)" name="Constant"/>
-    <comp lib="0" loc="(50,80)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="south"/>
-    </comp>
     <comp lib="0" loc="(620,370)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="3"/>
@@ -85,10 +84,6 @@
       <a name="bit2" val="0"/>
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
-    </comp>
-    <comp lib="0" loc="(80,80)" name="Pin">
-      <a name="appearance" val="classic"/>
-      <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(810,100)" name="Constant">
       <a name="facing" val="south"/>
@@ -131,30 +126,32 @@
       <a name="max" val="0x6"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="8" loc="(105,20)" name="Text">
-      <a name="text" val="ENTRADAS"/>
-    </comp>
-    <comp lib="8" loc="(110,50)" name="Text">
-      <a name="text" val="C"/>
-    </comp>
-    <comp lib="8" loc="(140,50)" name="Text">
-      <a name="text" val="D"/>
-    </comp>
-    <comp lib="8" loc="(170,50)" name="Text">
+    <comp lib="8" loc="(100,229)" name="Text">
       <a name="text" val="E"/>
     </comp>
-    <comp lib="8" loc="(50,50)" name="Text">
-      <a name="text" val="A"/>
+    <comp lib="8" loc="(101,197)" name="Text">
+      <a name="text" val="D"/>
     </comp>
-    <comp lib="8" loc="(80,50)" name="Text">
-      <a name="text" val="B"/>
+    <comp lib="8" loc="(113,74)" name="Text">
+      <a name="text" val="ENTRADAS"/>
     </comp>
     <comp lib="8" loc="(945,75)" name="Text">
       <a name="text" val="SALIDA"/>
     </comp>
-    <wire from="(110,80)" to="(110,560)"/>
-    <wire from="(140,80)" to="(140,560)"/>
-    <wire from="(170,80)" to="(170,560)"/>
+    <comp lib="8" loc="(96,105)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="8" loc="(97,135)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="8" loc="(99,168)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <wire from="(130,100)" to="(140,100)"/>
+    <wire from="(130,130)" to="(140,130)"/>
+    <wire from="(130,160)" to="(140,160)"/>
+    <wire from="(130,190)" to="(140,190)"/>
+    <wire from="(130,220)" to="(140,220)"/>
     <wire from="(270,180)" to="(270,300)"/>
     <wire from="(270,300)" to="(680,300)"/>
     <wire from="(290,140)" to="(490,140)"/>
@@ -163,7 +160,6 @@
     <wire from="(460,220)" to="(460,410)"/>
     <wire from="(460,220)" to="(490,220)"/>
     <wire from="(490,130)" to="(510,130)"/>
-    <wire from="(50,80)" to="(50,560)"/>
     <wire from="(620,370)" to="(710,370)"/>
     <wire from="(670,220)" to="(680,220)"/>
     <wire from="(680,220)" to="(680,300)"/>
@@ -172,7 +168,6 @@
     <wire from="(690,200)" to="(890,200)"/>
     <wire from="(690,210)" to="(890,210)"/>
     <wire from="(710,220)" to="(710,370)"/>
-    <wire from="(80,80)" to="(80,560)"/>
     <wire from="(810,100)" to="(810,130)"/>
     <wire from="(810,130)" to="(810,140)"/>
     <wire from="(810,130)" to="(820,130)"/>
