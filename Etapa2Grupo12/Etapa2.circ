@@ -193,13 +193,13 @@
     <comp lib="8" loc="(125,90)" name="Text">
       <a name="text" val="A"/>
     </comp>
-    <comp lib="8" loc="(200,392)" name="Text">
+    <comp lib="8" loc="(200,390)" name="Text">
       <a name="text" val="Estado actual"/>
     </comp>
     <comp lib="8" loc="(25,175)" name="Text">
       <a name="text" val="C"/>
     </comp>
-    <comp lib="8" loc="(403,369)" name="Text">
+    <comp lib="8" loc="(400,365)" name="Text">
       <a name="text" val="Load"/>
     </comp>
     <comp lib="8" loc="(55,225)" name="Text">
@@ -208,7 +208,7 @@
     <comp lib="8" loc="(60,55)" name="Text">
       <a name="text" val="ENTRADAS"/>
     </comp>
-    <comp lib="8" loc="(612,685)" name="Text">
+    <comp lib="8" loc="(610,685)" name="Text">
       <a name="text" val="Bits de direccionamiento ROM"/>
     </comp>
     <comp lib="8" loc="(65,90)" name="Text">
