@@ -18,6 +18,7 @@
   <lib desc="#BFH-Praktika" name="9"/>
   <lib desc="#Input/Output-Extra" name="10"/>
   <lib desc="#Soc" name="11"/>
+  <lib desc="file#CLAA24B.circ" name="12"/>
   <main name="main"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -174,6 +175,7 @@
     <comp lib="1" loc="(810,240)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
+    <comp lib="12" loc="(1050,530)" name="CLAA24Bits"/>
     <comp lib="2" loc="(290,150)" name="Multiplexer">
       <a name="select" val="3"/>
     </comp>
