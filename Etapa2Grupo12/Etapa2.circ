@@ -155,9 +155,6 @@
     <comp lib="0" loc="(90,220)" name="Pin">
       <a name="appearance" val="classic"/>
     </comp>
-    <comp lib="0" loc="(920,500)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-    </comp>
     <comp lib="0" loc="(930,270)" name="Splitter">
       <a name="bit1" val="0"/>
       <a name="bit10" val="3"/>
